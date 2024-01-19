@@ -16,14 +16,6 @@ const getEntries = async () => {
     }
   })
 
-  // await analyze(`I'm going to give you a journal entry, I want you to analyze a few things. I need the mood,
-  // a summary, what the subject is, and and color representing the mood. You need to respond back with formatted 
-  // JSON like so: {"mood": "", "subject": "", "color": "", "negative": ""}.
-  
-  // Entry: 
-  // Today was a realy great day. I finally was wable to gran that pair of shoes I always wanted.
-  // `)
-
   return entries
 }
 

@@ -1,7 +1,7 @@
 import Editor from "@/components/Editor"
 import { getUserByClerkId } from "@/utils/auth"
 
-const getEntry = async (id) => {
+const getEntry = async (id: String) => {
   const user = await getUserByClerkId()
   const entry = await prisma.journalEntry.findUnique({
     where: {
